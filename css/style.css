@@ -1,0 +1,93 @@
+body{
+    font-family: 'Poppins';
+    color: #000000;
+}
+
+.cabecalho{
+   display: flex;
+   flex-flow: row nowrap;
+   padding: 0,3%;
+   margin-top: 1%;
+}
+.cabecalho .menu {
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+    align-items: right;
+    margin-left: 20%;
+    position: right;
+}
+.logo-cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 8%;
+    margin-right: 10%;
+    margin-left: 3%;
+    margin-top: 0,8%;
+
+}
+#menu-principal ul{
+    position: absolute;
+    right: 3%;
+}
+
+#menu-principal ul a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #000000;
+    font-size: 12px;
+}
+
+
+.section-1{
+    max-width: 70%;
+    margin-top: 12% ;
+    margin-left: 20%;
+}
+
+.section-1 .texto-1{
+max-width: 600px;
+max-height: 600px;
+position: left;
+}
+
+.section-1 .div-img-1{
+    max-width: 700px;
+    max-height: 700px;
+    float: left;
+
+}
+
+.section-1 .titulo-1{
+    max-width: 75%;
+    font-size:40px ;
+}
+.section-1 .titulo-1 .span-1{
+    color:  rgb(1, 191, 217);
+}
+
+.section-1 .descricao-1{
+    max-width: 85%;
+    margin-bottom: 30px;
+}
+
+.section-1 .botao-whatsapp{
+    border: solid rgb(1, 191, 217);
+    background-color: rgb(1, 191, 217);
+    border-radius: 99px;
+    margin-top: 10px;
+    padding: 12px;
+}
+.section-1 .botao-whatsapp a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+
+}
+.section-1 .fa-brands{
+    padding: 5px;
+}
+
