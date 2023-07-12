@@ -41,21 +41,17 @@ body{
 
 
 .section-1{
-    max-width: 70%;
     margin-top: 12% ;
     margin-left: 20%;
 }
 
-.section-1 .texto-1{
-max-width: 600px;
-max-height: 600px;
-position: left;
+
+.section-1 ul{
+    list-style: none;
 }
 
-.section-1 .div-img-1{
-    max-width: 700px;
-    max-height: 700px;
-    float: left;
+.section-1 .texto-1{
+max-width: 600px;
 
 }
 
@@ -63,6 +59,7 @@ position: left;
     max-width: 75%;
     font-size:40px ;
 }
+
 .section-1 .titulo-1 .span-1{
     color:  rgb(1, 191, 217);
 }
@@ -79,6 +76,7 @@ position: left;
     margin-top: 10px;
     padding: 12px;
 }
+
 .section-1 .botao-whatsapp a{
     text-decoration: none;
     color: #ffffff;
@@ -87,6 +85,16 @@ position: left;
     font-family: 'Inter', sans-serif;
 
 }
+
+.div-img-1 {
+    display: flex;
+
+}
+
+.img-cabecalho {
+    max-width: 1000px;
+}
+
 .section-1 .fa-brands{
     padding: 5px;
 }
